@@ -1,0 +1,510 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: #EDF4FD;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    align-items: center;
+    color: #222;
+    padding-bottom: 10px;
+}
+.div1 {
+    display: flex;
+    gap: 7px;
+}
+.divv1 {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.header2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+
+.div2 a {
+    padding-right: 5px;
+    text-decoration: none;
+    color: #222;
+    font-size: 14px;
+}
+
+.div2 a:focus {
+    color: #4791EB;
+}
+.main2{
+    color: #4791EB;
+}
+
+.table {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+    gap: 30px;
+    width: 300px;
+    height: 120px;
+    font-size: 13px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid var(--accent-weak, #EDF4FD);
+}
+
+.seventeen {
+    font-size: 24px;
+}
+
+.weather {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.newss {
+    display: flex;
+    padding-top: 15px;
+}
+
+.main {
+    color: #4791EB;
+}
+
+.uca2 {
+    width: 160px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.info {
+    padding-bottom: 50px;
+    font-size: 15px;
+}
+
+.date {
+    font-size: 12px;
+}
+
+.image12 {
+    width: 130px;
+}
+
+.leftheader{
+  grid-area: box1;
+}
+.woman{
+grid-area: box2;
+}
+.man{
+grid-area: box3;
+}
+
+.essential {
+    display: grid;
+    grid-template-areas: "box1 box2 box3";
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 64px;
+}
+
+.woman {
+    background-image: url(./homepageImg/young-woman-hiker-taking-photo-with-smartphone-mountains-peak-winter_335224-427\ 1.svg);
+    width: 550px;
+    height: 400px;
+    display: flex;
+    align-items: end;
+    color: #FFF;
+    font-size: 18px;
+}
+
+.portal {
+    position: absolute;
+    top: 170px;
+    padding-left: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.link {
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom: 60px;
+    right: 30px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    border-radius: 8px;
+    margin-left: 160px;
+    padding: 10px;
+    background: var(--accent-strong, #4791EB);
+    color: #FFF;
+    font-size: 16px;
+}
+
+.man p {
+    font-size: 13px;
+    padding-top: 20px;
+}
+
+.man h5 {
+    display: flex;
+    justify-content: end;
+    padding-top: 20px;
+}
+
+.oblachno {
+    color: #4791EB;
+    font-weight: 600;
+}
+
+.home {
+    color: #4791EB;
+}
+
+.xin {
+    color: #7A7A7A;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.xin1 {
+    color: #7A7A7A;
+    font-size: 12px;
+}
+
+.euro {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.woman div {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.woman div p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.news {
+    padding-top: 122px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.data {
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.inform {
+    font-size: 12px;
+    width: 150px;
+}
+
+.tajnews {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 150px;
+    background-color: #EDF4FD;
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+
+.maindiv {
+    width: 220px;
+
+}
+
+.history {
+    background-color: #EDF4FD;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pictures {
+    width: 150px;
+    padding-top: 30px;
+}
+
+.karta {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+
+.text p {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.girl {
+    padding-top: 220px;
+    position: relative;
+    right: 100px;
+}
+
+.khorog {
+    padding-top: 100px;
+}
+
+.link2 {
+    text-decoration: none;
+    color: #FFF;
+    display: inline-flex;
+    padding: 12px 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--accent-strong, #4791EB);
+}
+
+.events {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 100px;
+
+}
+
+.event {
+    color: #4791EB;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.event2 {
+    color: #4791EB;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 100px;
+}
+
+.eventsDiv1 a {
+    padding-right: 20px;
+    text-decoration: none;
+    color: #7A7A7A;
+}
+
+.eventsDiv2 {
+    color: #4791EB;
+    text-decoration: none;
+}
+
+.bigDiv {
+    width: 400px;
+}
+
+.parent_div {
+    display: flex;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.suratenTag {
+    width: 270px;
+    padding-bottom: 20px;
+}
+
+.titleTag {
+    padding-bottom: 20px;
+}
+
+.bigDiv2 {
+    width: 400px;
+    border: 2px solid;
+    border-radius: 6px;
+    border-color: #EDF4FD;
+    padding: 10px;
+}
+
+.tender {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.bigDiv3 {
+    width: 300px;
+
+    border: 2px solid;
+    border-radius: 6px;
+    border-color: #EDF4FD;
+    padding: 10px;
+}
+
+.vacancy {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #EDF4FD;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.footer div p {
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.socialMediaiImg {
+    padding-top: 20px;
+}
+
+.footer5 {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #EDF4FD;
+    font-size: 13px;
+    color: #7A7A7A;
+}
+
+.footer5 div a {
+    text-decoration: none;
+    color: #7A7A7A;
+
+}
+@media(max-width: 624px){
+    .header1{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .header2{
+        display: flex;
+        flex-wrap: wrap
+    }
+}
+@media(max-width: 1312px){
+   .essential{
+    grid-template-areas: 
+    "box1 box3"
+    "box2 box2";
+
+    /* display: grid;
+    grid-template-columns: 300px 300px 300px; */
+   }
+   .woman{
+    width: 300px;
+    height: 300px;
+   }
+}
+@media(max-width: 760px){
+    .essential{
+     grid-template-areas: 
+     "box1 box1"
+     "box2 box2"
+     "box3 box3";
+    }
+    .man img{
+        width: 300px;
+    }
+    .man{
+        padding-top: 20px;
+    }
+    .link{
+        width: 100px;
+    }
+    .portal{
+        display: none;
+    }
+    .news{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: white;
+        width: 300px;
+    }
+    .tajnews{
+        position: relative;
+        right: 100px;
+        background-color: white;
+    }
+    .image300{
+        width: 280px;
+    }
+}
+@media(max-width: 1302px){
+    .girl1{
+        display: none;
+    }
+    .karta{
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+    }
+    .karta2{
+        width: 300px;
+    }
+}
+@media(max-width: 1316px){
+    .parent_div{
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+    }
+    .vacancy{
+        display: flex;
+        flex-wrap: wrap;
+        width: 480px;
+    }
+    .tender{
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+    }
+}
+@media(max-width: 878px){
+    .footer0{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
